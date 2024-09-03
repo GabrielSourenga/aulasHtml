@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <header>
+        <h1>Site de opiniões</h1>
+    </header>
+
+    <main>
+        <h2>O que você prefere?</h2>
+        <p>Uma série de purguntas de assuntos diversos para conhecermos e compararmos as preferências.</p>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Cadastro</legend>
+
+                <label for="cNome">Nome:</label>
+                <input type="text" id="cNome" placeholder="Nome completo">
+
+                <label for="cIdade">Idade:</label>
+                <input type="number" id="cIdade" placeholder=" Sua Idade">
+
+                <label for="cEmail">Email:</label>
+                <input type="email" id="cEmail" placeholder="Ex: Seuemail@operadora.com">
+
+            </fieldset>
+
+            <!-- ============================================================================================================== -->
+
+            <br>
+            <fieldset>
+                <legend>Escolhas</legend>
+                <label for="cCarros">Qual é o melhor carro?</label><br>
+                <select name="listaCarros" id="cCarros">
+                    <option value="Limpo" disabled selected>Selecione</option>
+                    <option value="Evoque">Evoque</option>
+                    <option value="Celta">Celta</option>
+                    <option value="Fusca">Fusca</option>
+                    <option value="kombi">Kombi</option>
+                    <option value="Polo">Polo</option>
+                    <option value="Uno">Uno</option>
+                    <option value="Fiat">Fiat</option>
+                </select>
+
+                <br>
+                <label for="cRegiao">Que região você prefere?</label>
+                <input autocomplete="on" list="regiao" placeholder="Uma Região" id="cRegiao" name="listaRegiao">
+                <datalist id="regiao">
+                    <option value="Norte">N</option>
+                    <option value="Sul">S</option>
+                    <option value="Leste">L</option>
+                    <option value="Oeste">O</option>
+                    <option value="Nordeste">NE</option>
+                    <option value="Noroeste">NO</option>
+                    <option value="Sudeste">SE</option>
+                    <option value="Sudoeste">SO</option>
+                </datalist>
+
+                <br>
+                <label for="cComida">Qual é a sua comida preferida?</label>
+                <input autocomplete="on" list="comida" placeholder="Uma Comida" id="cComida" name="listaCOmida">
+                <datalist id="comida">
+                    <option value="Macarrão"></option>
+                    <option value="Stogonoff"></option>
+                    <option value="Lasanha"></option>
+                    <option value="Churrasco"></option>
+                    <option value="Sopa"></option>
+                    <option value="Arroz e Feijão"></option>
+                    <option value="Hamburguer"></option>
+                    <option value="Cachorro-Quente"></option>
+                </datalist>
+
+                <br>
+                <label for="cRegiao">Qual seu estilo de filme?</label>
+                <br>
+                <select id="regiao">
+                    <option value="Norte">N</option>
+                    <option value="Sul">S</option>
+                    <option value="Leste">L</option>
+                    <option value="Oeste">O</option>
+                    <option value="Nordeste">NE</option>
+                    <option value="Noroeste">NO</option>
+                    <option value="Sudeste">SE</option>
+                    <option value="Sudoeste">SO</option>
+                </select>
+            </fieldset>
+
+            <!-- ============================================================================================================== -->
+
+            <br>
+            <fieldset>
+                <legend>Fim do Quiz</legend>
+
+                <label for="cFeadback">Dê a sua Sugestão,opinião ou Pergunta. </label>
+                <textarea name="Feadback" id="cFeadback" cols="30" rows="10" placeholder="Minimo de 50 caracteres"
+                    required maxlength="300" minlength="50"></textarea>
+
+                <br><br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+input{
+    font-family: cursive;
+    background-color: burlywood;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 25%;
+    height: 40px;
+    width: 200px;
+    border-style: hidden;
+}
+
+body {
+    background-color: antiquewhite;
+    color: brown;
+    font-family: cursive;
+}
+
+form {
+    border-style: groove;
+    border-color: black;
+}

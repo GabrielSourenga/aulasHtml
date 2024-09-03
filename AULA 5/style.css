@@ -1,0 +1,45 @@
+body {
+    background-color: pink;
+    color:black ;
+    text-align: center;
+    font-family: cursive;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    border-style: groove;
+    border-width: 5px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    border-style: groove;
+    border-width: 5px;
+}
+
+main {
+    background-color:yellow;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 5%;
+    
+}
+
+section {
+    background-color: brown;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 5%;
+}
+
+div {
+    text-align: center;   
+}
+
+img {
+    border-radius: 15%;
+}
